@@ -1,0 +1,90 @@
+body{
+	background-color: #FBF5DF;
+}
+
+.wrapper{
+	margin: auto;
+	max-width: 990px; 
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+}
+
+.movie-list{
+	margin: 0 -5px;
+}
+
+.movie-list .movie{
+	border: solid #D5422E;
+	border-width: 3px 2px 1px 0; 
+	border-radius: 4px 4px 4px 0;
+	float: left;
+	margin: 0 5px 20px;
+	max-height: 205px;
+	max-width: 148px;
+	overflow: hidden;
+}
+
+.mfp-inline-holder .mfp-content{
+	background-color: white;
+	font-family: Helvetica, sans-serif;
+	margin: auto;
+	width: 710px;
+}
+
+.movie-info{
+	padding-right: 25px;
+}
+
+.movie-info .movie-poster{
+	max-width: 190px;
+}
+
+.movie-info .movie-name{
+	color: #D3402C;
+	font-size: 20px;
+	margin: 10px 0 0;
+}
+
+.movie-info .movie-date{
+	color: #666;
+	font-size: 14px;
+	font-weight: lighter;
+}
+
+.movie-info p,
+.movie-info label{
+	color: #333333;
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+.movie-info p{
+	font-weight: lighter;
+	margin-bottom: 10px;
+}
+
+.cast-list li{
+	float: left;
+}
+
+.cast-list li + li{
+	margin-left: 40px;
+}
+.cast-list .cast-image{
+	max-width: 17px;
+}
+
+.cast-list p{
+	font-size: 12px;
+	font-weight: lighter;
+	margin: 0;
+	line-height: 1;
+}
+
+.cast-list p:first-child{
+	font-weight: bold;
+}
